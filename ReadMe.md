@@ -26,7 +26,13 @@ In Linux we need to run the makefile.
 ```
 make makefile
 ```
+For running the application in container.
+The docker file should be used.
 
+```
+docker build -t dockerimage .
+docker run dockerimage
+```
 
 
 End with an example of getting some data out of the system or using it for a little demo
