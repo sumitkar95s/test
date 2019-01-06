@@ -1,10 +1,11 @@
 from S3Module.ApiReceiver import ApiReceiver
+from abc import ABC, abstractmethod
 import logging
 
 api_logger =logging.getLogger(__name__)
 
 
-class Command:
+class Command(ABC):
     """
     All commands from the rest api are encapsulated as an object and sent to
     receiver.
