@@ -14,11 +14,7 @@ This api allows
 
 1. Python 2.7
 2. GIT
-
-```
-Give examples
-```
-
+3. IAM Role should be attached to the EC2 instance with S3 access.
 ### Installing
 
 In Linux we need to run the makefile.
@@ -33,22 +29,6 @@ The docker file should be used.
 docker build -t dockerimage .
 docker run dockerimage
 ```
-
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
